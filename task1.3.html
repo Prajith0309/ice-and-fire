@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>lets talk</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+   <script>
+       function submitted(){
+    alert ("will contact you soon !");
+       }
+   </script>
+</head>
+<body>
+  <form onsubmit="submitted()">
+    <label for = "name"> enter your name :</label>
+    <input type = "text" name = "name" id = "name" required>
+    <label for = "email"> enter your email :</label>
+    <input type = "email" name = "email" id = "email" required>
+    <label for = "contact no"> enter your contact number :</label>
+    <input type = "number" name = "contact no" id = "contact no" required>
+    <label for = "query"> what is your query? :</label>
+    <input type = "text" name = "query" id = "query" size="60">
+    <div>
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+    </div>
+  </form>
+</body>
+</html>
